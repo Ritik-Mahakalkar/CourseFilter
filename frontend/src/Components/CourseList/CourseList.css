@@ -1,6 +1,4 @@
-/* App.css */
 
-/* Fonts and Background */
 body {
   margin: 0;
   padding: 0;
@@ -42,13 +40,13 @@ h2 {
   outline: none;
 }
 
-/* Course Count */
+
 .fw-semibold {
   font-size: 1rem;
   color: #ffffffcc;
 }
 
-/* Clear Button */
+
 .btn-clear {
   background: linear-gradient(135deg, #ff416c, #ff4b2b);
   color: #fff;
@@ -63,7 +61,7 @@ h2 {
   background: linear-gradient(135deg, #ff4b2b, #ff416c);
 }
 
-/* Course Card */
+
 .card {
   border: none;
   border-radius: 18px;
@@ -91,7 +89,7 @@ h2 {
   margin-bottom: 0.4rem;
 }
 
-/* Responsive tweaks */
+
 @media (max-width: 768px) {
   h2 {
     font-size: 1.6rem;
