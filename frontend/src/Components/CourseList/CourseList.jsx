@@ -25,7 +25,7 @@ const CourseList = () => {
     <div className="container py-5">
       <h2 className="mb-4 text-center">Our Courses</h2>
 
-      {/* Filters */}
+     
       <div className="row g-3 mb-4">
         <div className="col-md-4">
           <label className="filter-label">Category</label>
@@ -66,12 +66,12 @@ const CourseList = () => {
         </div>
       </div>
 
-      {/* Course Count */}
+    
       <p className="mb-3 fw-semibold text-secondary">
         Showing {filteredCourses.length} courses
       </p>
 
-      {/* Course Cards */}
+      
       <div className="row">
         {filteredCourses.map((course) => (
           <div key={course.id} className="col-md-4 mb-4">
