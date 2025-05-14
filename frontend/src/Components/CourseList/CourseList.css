@@ -1,0 +1,103 @@
+/* App.css */
+
+/* Fonts and Background */
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #f0f0f0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Headings */
+h2 {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Filter Labels */
+.filter-label {
+  font-weight: 500;
+  color: #ffffffb3;
+  font-size: 0.95rem;
+  margin-bottom: 0.25rem;
+}
+
+/* Form Select (Dropdowns) */
+.form-select {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  padding: 0.6rem 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.form-select:focus {
+  border-color: #00d4ff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 212, 255, 0.25);
+  outline: none;
+}
+
+/* Course Count */
+.fw-semibold {
+  font-size: 1rem;
+  color: #ffffffcc;
+}
+
+/* Clear Button */
+.btn-clear {
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  color: #fff;
+  border: none;
+  font-weight: 500;
+  padding: 0.6rem 1rem;
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+.btn-clear:hover {
+  background: linear-gradient(135deg, #ff4b2b, #ff416c);
+}
+
+/* Course Card */
+.card {
+  border: none;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+  transition: all 0.3s ease-in-out;
+  padding: 1rem;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 40px rgba(0, 212, 255, 0.2);
+}
+
+.card-title {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.card-text {
+  color: #ffffffcc;
+  font-size: 0.9rem;
+  margin-bottom: 0.4rem;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  .card {
+    padding: 0.8rem;
+  }
+}
